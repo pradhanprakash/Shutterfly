@@ -6,9 +6,9 @@ Please run the code from src Directory
 
 Steps to start the script -
 1. cd src
-2. python Main_Calculation.py X 
+2. python Main_Calculation.py X file_name 
    
-   where X - Top X customer
+   where X - Top X customer and file_name is the name of the input file in the "in" directory
 
 
 Description of the Code:
