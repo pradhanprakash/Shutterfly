@@ -1,0 +1,3 @@
+Customer ID                 Life Time Value
+96f55c7d8f42                1753.1428571428569
+96f55c7d8f44                1335.6571428571428
