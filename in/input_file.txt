@@ -1,0 +1,214 @@
+[{
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "cust123",
+		"event_time": "2018-05-20T12:46:46.384Z",
+		"last_name": "Doe",
+		"adr_city": "Chicago",
+		"adr_state": "IL"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "site123",
+		"event_time": "2018-05-20T12:45:52.041Z",
+		"customer_id": "cust123",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "image123",
+		"event_time": "2018-05-20T12:47:12.344Z",
+		"customer_id": "cust123",
+		"camera_make": "Kodak",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "order123",
+		"event_time": "2018-05-20T12:55:55.555Z",
+		"customer_id": "cust123",
+		"total_amount": "10.11 USD"
+	},
+	{
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "cust123",
+		"event_time": "2018-05-08T12:46:46.384Z",
+		"last_name": "Doe",
+		"adr_city": "Chicago",
+		"adr_state": "IL"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "site123",
+		"event_time": "2018-05-08T12:45:52.041Z",
+		"customer_id": "cust123",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "image123",
+		"event_time": "2017-01-08T12:47:12.344Z",
+		"customer_id": "cust123",
+		"camera_make": "Kodak",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "order123",
+		"event_time": "2018-05-08T12:55:55.555Z",
+		"customer_id": "cust123",
+		"total_amount": "100.88 USD"
+	}, {
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "cust456",
+		"event_time": "2018-05-01T10:20:46.384Z",
+		"last_name": "William",
+		"adr_city": "Manhattan",
+		"adr_state": "NY"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "site123",
+		"event_time": "2018-05-01T10:26:52.041Z",
+		"customer_id": "cust456",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "image123",
+		"event_time": "2018-05-01T10:30:12.344Z",
+		"customer_id": "cust456",
+		"camera_make": "Kodak",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "order123",
+		"event_time": "2018-05-01T10:45:55.555Z",
+		"customer_id": "cust456",
+		"total_amount": "6.95 USD"
+	}, {
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "cust123",
+		"event_time": "2018-05-09T10:46:46.384Z",
+		"last_name": "Doe",
+		"adr_city": "Chicago",
+		"adr_state": "IL"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "site123",
+		"event_time": "2018-05-09T10:45:52.041Z",
+		"customer_id": "cust123",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "image123",
+		"event_time": "2018-05-09T10:47:12.344Z",
+		"customer_id": "cust123",
+		"camera_make": "Kodak",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "order123",
+		"event_time": "2018-05-09T10:55:55.555Z",
+		"customer_id": "cust123",
+		"total_amount": "99.99 USD"
+	}, {
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "cust456",
+		"event_time": "2018-05-07T10:20:46.384Z",
+		"last_name": "William",
+		"adr_city": "Manhattan",
+		"adr_state": "NY"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "site123",
+		"event_time": "2018-05-07T10:26:52.041Z",
+		"customer_id": "cust456",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "image123",
+		"event_time": "2018-05-07T10:30:12.344Z",
+		"customer_id": "cust456",
+		"camera_make": "Kodak",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "order123",
+		"event_time": "2018-05-07T10:45:55.555Z",
+		"customer_id": "cust456",
+		"total_amount": "143.40 USD"
+	},
+	{
+		"type": "CUSTOMER",
+		"verb": "NEW",
+		"key": "cust789",
+		"event_time": "2018-05-20T12:46:46.384Z",
+		"last_name": "John",
+		"adr_city": "Chicago",
+		"adr_state": "IL"
+	},
+	{
+		"type": "SITE_VISIT",
+		"verb": "NEW",
+		"key": "site123",
+		"event_time": "2018-05-20T12:45:52.041Z",
+		"customer_id": "cust789",
+		"tags": [{
+			"some key": "some value"
+		}]
+	},
+	{
+		"type": "IMAGE",
+		"verb": "UPLOAD",
+		"key": "image123",
+		"event_time": "2018-05-20T12:47:12.344Z",
+		"customer_id": "cust789",
+		"camera_make": "Kodak",
+		"camera_model": "EOS 80D"
+	},
+	{
+		"type": "ORDER",
+		"verb": "NEW",
+		"key": "order123",
+		"event_time": "2018-05-20T12:55:55.555Z",
+		"customer_id": "cust789",
+		"total_amount": "123.456 USD"
+	}
+]
