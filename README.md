@@ -54,17 +54,3 @@ Performance Improvements:
 We could have an intermediatory persistant storage instead of dictinoraies if data ingestion becomes too huge. A NoSQL (Document based like MongoDB) implementation as intermediate storage which is well suited for JSON/Python Dictinory constructs.
 IO errors and input value errors can be caught before injestion	
 
-
-Output:
-
-Customer ID     LTV
-96f55c7d8f42                85904.0
-96f55c7d8f44                65447.2
-96f55c7d8f43                10524.8
-
-I have considered 3 customers where, one customer visited 3 times, and the other customer visited 2 times and one more customer visited only once.
-
-a.	Customer_Id: 96f55c7d8f42 made three orders 12.34+52.88+99.98 and the visits were made. Hence the LTV value is largest among other customers.
-b.	Customer_Id: 96f55c7d8f44 made order amount of 125.86 and number of visit is just one.
-c.	Customer id: 96f55c7d8f43 made two orders with amount 6.24 and 14.00 and number of visit is 2, since amount spent is low, customer ended up with lesser LTV compared to other two.
-
